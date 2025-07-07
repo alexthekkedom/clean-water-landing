@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clean Water Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to bottom right, #0b2c56, #1c4966);
+      color: #f6c20e;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 5%;
+    }
+
+    .left {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+      max-width: 500px;
+    }
+
+    .left img {
+      width: 60px;
+      margin-bottom: 20px;
+    }
+
+    .headline {
+      font-size: 2.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #f6c20e;
+      padding-bottom: 10px;
+    }
+
+    .body-text {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      background-color: #f6c20e;
+      color: #002244;
+      padding: 12px 25px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 4px;
+      display: inline-block;
+    }
+
+    .right {
+      flex: 1;
+      min-width: 300px;
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .right img {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .headline {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <img src="logo-placeholder.png" alt="Logo">
+      <div class="headline">Join the Clean Water Movement</div>
+      <div class="body-text">
+        Be part of a global community proving that small donations can create big change. 100% of what you give brings clean water — and real hope.
+      </div>
+      <a href="#" class="cta-button">DONATE NOW</a>
+    </div>
+
+    <div class="right">
+      <img src="water-girl-placeholder.jpg" alt="Smiling Girl with Clean Water">
+    </div>
+  </div>
+
+</body>
+</html>
